@@ -78,9 +78,9 @@ SELECT * FROM students;
 
 -- update table cmd
 
-UPDATE students
- SET email = 'rupa@gmail.com', age = 21
- WHERE student_id = 3;
+-- UPDATE students
+--  SET email = 'rupa@gmail.com', age = 21
+--  WHERE student_id = 3;
 
 
 

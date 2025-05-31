@@ -8,3 +8,19 @@ CREATE Table post (
     title TEXT NOT NULL,
     user_id INTEGER REFERENCES "user"(id) 
 );
+
+INSERT INTO "user" (user_name) 
+VALUES 
+('jahid'),
+('sagor'),
+('nodi'),
+('evan');
+
+INSERT INTO post(title, user_id) VALUES
+('injoy the home jahid👋', 1),
+('injoy your single life sagor',2),
+('nodi you chert with kasm',4),
+('evan date with sadia', 4);
+
+SELECT * FROM "user"; 
+SELECT * FROM post;
